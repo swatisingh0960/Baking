@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.BakingActivity">
+
+    <GridView
+        android:id="@+id/recipesGridView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:stretchMode="columnWidth"
+        android:columnWidth="@dimen/image_side_2x"
+        android:numColumns="1"
+        android:horizontalSpacing="@dimen/padding_Medium"
+        android:verticalSpacing="@dimen/padding_Medium"
+        android:adjustViewBounds = "true"
+        android:gravity="center"
+        android:padding="@dimen/paddingLarge"
+        tools:text="Recipe Names">
+    </GridView>
+</LinearLayout>

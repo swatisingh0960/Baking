@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Baking App</string>
+    <string name="hello_BlankFragment">Description of task</string>
+    <string name="prevStep">Previous</string>
+    <string name="nextStep">Next</string>
+    <string name="no_internet">No Internet Connection!!</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="no_active_recipe">Please Select a Recipe!!</string>
+</resources>
+

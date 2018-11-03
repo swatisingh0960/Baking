@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/recipe_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="@dimen/textLarge"
+        android:textColor="@color/colorAccent"
+        tools:text = "item"
+        android:padding="@dimen/paddingLarge"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="italic"/>
+
+</LinearLayout>
